@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+
+	<form action="" method="POST" name="form_Cadastro">
+		<label> OPÇÕES DE VIAGEM: </label></br>
+		<div class="">
+		<select name="OPÇÕES DE VIAGEM">
+		<option value="0">Selecione</option></br>
+		</select>
+		
+		<select name="tipoBeneficiario">
+		<option value="0">Selecione</option></br></br>
+		</select>
+		</div>
+		
+		Hotel:</br>
+		<input type="radio" name="hotel"value="✭"></br>
+		<input type="radio" name="hotel"value="✭✭"></br>
+		<input type="radio" name="hotel"value="✭✭✭"></br>
+		<input type="radio" name="hotel"value="✭✭✭✭"></br>
+		<input type="radio" name="hotel"value="✭✭✭✭✭"></br>
+		
+		<label>Diárias</label>
+		<input type="text" name="Diárias" value="Diarias"></br></br>
+		
+		Translado: 
+		<input type="radio" name="translado"value="Sim"></br>
+		<input type="radio" name="translado"value="Não"></br></br>
+		
+		Passeio: 
+		<textarea name="Comment" rows="6" cols="50"> </textarea></br></br>
+		
+		<input type="submit" value="Ok"></br></br>
+	</form>
+
+</body>
+</html>
