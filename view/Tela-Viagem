@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+	<meta charset = "utf-8">
+	<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8">
+	<title>Tela de opções - Agência de Turismo MiniAgua</title>
 </head>
 
 <body>
 
 	<form action="" method="POST" name="form_Cadastro">
 		<label> OPÇÕES DE VIAGEM: </label></br>
-		<div class="">
-		<select name="OPÇÕES DE VIAGEM">
+		<div class=""></br>
+		Destino: 
+		<select name="Destino">
 		<option value="0">Selecione</option></br>
-		</select>
+		</select></br></br>
 		
-		<select name="tipoBeneficiario">
+		Transporte: 
+		<select name="Transporte">
 		<option value="0">Selecione</option></br></br>
 		</select>
-		</div>
+		</div></br>
 		
 		Hotel:</br>
 		<input type="radio" name="hotel"value="✭"></br>
 		<input type="radio" name="hotel"value="✭✭"></br>
 		<input type="radio" name="hotel"value="✭✭✭"></br>
 		<input type="radio" name="hotel"value="✭✭✭✭"></br>
-		<input type="radio" name="hotel"value="✭✭✭✭✭"></br>
+		<input type="radio" name="hotel"value="✭✭✭✭✭"></br></br>
 		
 		<label>Diárias</label>
-		<input type="text" name="Diárias" value="Diarias"></br></br>
+		<input type="text" name="Diárias" placeholder="Diárias"></br></br>
 		
 		Translado: 
-		<input type="radio" name="translado"value="Sim"></br>
-		<input type="radio" name="translado"value="Não"></br></br>
+		<input type="radio" name="translado"value="Sim">
+		Sim
+		<input type="radio" name="translado"value="Não">
+		Não</br></br>
 		
 		Passeio: 
 		<textarea name="Comment" rows="6" cols="50"> </textarea></br></br>
